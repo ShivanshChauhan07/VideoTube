@@ -1,7 +1,14 @@
 import React from "react";
+import ButtonList from "./ButtonList";
+import VideoContainer from "./VideoContainer";
 
 const MainContainer = () => {
-  return <div className="border-4 border-red-500 w-full">MainContainer</div>;
+  return (
+    <div className=" w-full h-full">
+      <ButtonList />
+      <VideoContainer />
+    </div>
+  );
 };
 
 export default MainContainer;

@@ -18,12 +18,12 @@ const Header = () => {
       </div>
       <div className="h-8 col-span-10 text-center">
         <input
-          className="w-1/2 input input-bordered input-sm rounded-r-none bg-white border-gray-400"
+          className="w-1/2 input input-bordered input-sm rounded-r-none rounded-full bg-white border-gray-400"
           type="text"
         />
-        <button className="btn btn-primary btn-sm text-white rounded-l-none">
+        <button className="btn btn-primary btn-sm text-white rounded-l-none rounded-full">
           {" "}
-          Search
+          <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
       <div className="h-8 col-span-1 justify-self-end">

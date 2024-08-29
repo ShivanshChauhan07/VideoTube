@@ -4,7 +4,7 @@ import MainContainer from "./MainContainer";
 
 const Body = () => {
   return (
-    <div className="border-2 border-green-200 h-full flex flex-grow overflow-hidden">
+    <div className=" h-full flex flex-grow overflow-hidden">
       <SideBar />
       <MainContainer />
     </div>

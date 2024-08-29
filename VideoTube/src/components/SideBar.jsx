@@ -6,7 +6,7 @@ const SideBar = () => {
   return (
     <>
       {!toggle ? (
-        <div className="border-2 border-blue-500 max-w-20 h-full ">
+        <div className=" max-w-20 h-full ">
           <div className="h-2/3">
             <ul className="h-full flex flex-col justify-around gap-2 list-none text-xs">
               <li className="flex flex-col items-center ">
@@ -39,7 +39,7 @@ const SideBar = () => {
           </div>
         </div>
       ) : (
-        <div className="w-52 py-4 px-1 flex flex-col justify-evenly max-h-full overflow-y-auto">
+        <div className="w-52 py-4 px-1 flex flex-col justify-evenly h-full overflow-y-auto">
           <section>
             <div className="flex justify-start gap-x-4 p-2">
               <i className="fa-solid fa-house text-lg"></i>
@@ -88,20 +88,20 @@ const SideBar = () => {
           <hr />
           <section>
             <div className="flex justify-start gap-x-4 p-2">
-              <p>Subscriptions</p>
+              <p className="font-medium">Subscriptions</p>
             </div>
           </section>
           <hr />
           <section>
             <div className="flex justify-start gap-x-4 p-2">
-              <p>More From VideoTube</p>
+              <p className="font-medium text-base">More From VideoTube</p>
             </div>
             <div className="flex justify-start gap-x-4 p-2">
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-youtube my-auto"></i>
               <p>VideoTube Studio</p>
             </div>
             <div className="flex justify-start gap-x-4 p-2">
-              <i class="fa-brands fa-square-youtube"></i>
+              <i className="fa-brands fa-square-youtube my-auto"></i>
               <p>VideoTube Music</p>
             </div>
             <div className="flex justify-start gap-x-4 p-2">
